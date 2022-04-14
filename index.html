@@ -1,48 +1,40 @@
 <!DOCTYPE html>
+<!-- Template by quackit.com -->
 <html>
 <head>
-<title>Page Title</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>3 Column Layout</title>
+	<style type="text/css">
 
-</head>
-<body>
+		/* Layout */
+		body {
+			min-width: 630px;
+		}
 
-<h1 style="color: #7FFF00;"> ჩხეიძე</h1>
-<h1 style="color: #008000;">სფეისი</h1>
-
-
-</body>
-</html>
-
-<p 
-
-<picture>
-    <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
-    <source media="(min-width:465px)" srcset="img_white_flower.jpg">
-    <img src="img_pink_flowers.jpg" alt="Flowers" style="width:auto;">
-  </picture>
-
-  <!DOCTYPE html>
-<html>
-<body>
-
-<h1>The article element</h1>
-
-
-<article>
-  <h2>Google Chrome</h2>
-  <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
-</article>
-
-
-<article>
-  <h2>Mozilla Firefox</h2>
-  <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
-</article>
-
-<article>
-  <h2>Microsoft Edge</h2>
-  <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
-</article>
-
-</body>
-</html>
+		#container {
+			padding-left: 200px;
+			padding-right: 190px;
+		}
+		
+		#container .column {
+			position: relative;
+			float: left;
+		}
+		
+		#center {
+			padding: 10px 20px;
+			width: 100%;
+		}
+		
+		#left {
+			width: 180px;
+			padding: 0 10px;
+			right: 240px;
+			margin-left: -100%;
+		}
+		
+		#right {
+			width: 130px;
+			padding: 0 10px;
+			margin-right: -100%;
+		}
